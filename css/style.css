@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	color: white;
+	font-family: "Arial";
+}
+#MainContainer{
+	height: 200vh;
+	overflow: visible;
+}
+#ActivaterMenu{
+	width: 75px;
+	height: 75px;
+	transition: 1s ease;
+	background-image: url("../img/images.png");
+	background-size: contain;
+	border: none;
+	border-radius: 50%;
+	top: 0;
+	position: absolute;
+}
+#ActivaterMenu:hover{
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+#GumMenu{
+	display:inline-block;
+	left: 0;
+	top:0;
+	width: 0;
+	background-color: rgb(40, 40, 48);
+	height: 100vh;
+	transition: 0.5s ease;
+	overflow:hidden;
+}
+
+.CaseItems{
+	list-style-type:none;
+	width: 250px;
+	padding: 10px 0px 10px 20px;
+	transition: 0.2s ease;  
+	background-color: rgb(40, 40, 48);
+}
+.CaseItems:hover{
+	background-color: rgb(60, 60, 71);  
+}
+.NameSection{
+	width: 250px;
+	padding: 15px 0px 15px 20px;
+	font-size: small;
+	color: rgb(97, 97, 99);
+}
